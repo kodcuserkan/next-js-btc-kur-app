@@ -60,10 +60,10 @@ function (_Component) {
     value: function render() {
       var _this2 = this;
 
-      var list = '';
+      var sonuc = '';
 
       if (this.state.kur === "USD") {
-        list = __jsx("li", {
+        sonuc = __jsx("li", {
           className: "list-group-item",
           __source: {
             fileName: _jsxFileName,
@@ -76,7 +76,7 @@ function (_Component) {
             lineNumber: 14
           },
           __self: this
-        }, this.props.bpi.USD.rate), __jsx("span", {
+        }, this.props.bpi.USD.rate_float), __jsx("span", {
           className: "badge badge-primary",
           __source: {
             fileName: _jsxFileName,
@@ -85,7 +85,7 @@ function (_Component) {
           __self: this
         }, "-", this.props.bpi.USD.code, "-"));
       } else if (this.state.kur === "EUR") {
-        list = __jsx("li", {
+        sonuc = __jsx("li", {
           className: "list-group-item",
           __source: {
             fileName: _jsxFileName,
@@ -98,7 +98,7 @@ function (_Component) {
             lineNumber: 22
           },
           __self: this
-        }, this.props.bpi.EUR.rate), __jsx("span", {
+        }, this.props.bpi.EUR.rate_float), __jsx("span", {
           className: "badge badge-primary",
           __source: {
             fileName: _jsxFileName,
@@ -107,7 +107,7 @@ function (_Component) {
           __self: this
         }, " -", this.props.bpi.EUR.code, "- "));
       } else if (this.state.kur === "GBP") {
-        list = __jsx("li", {
+        sonuc = __jsx("li", {
           className: "list-group-item",
           __source: {
             fileName: _jsxFileName,
@@ -120,7 +120,7 @@ function (_Component) {
             lineNumber: 29
           },
           __self: this
-        }, this.props.bpi.GBP.rate), __jsx("span", {
+        }, this.props.bpi.GBP.rate_float), __jsx("span", {
           className: "badge badge-primary",
           __source: {
             fileName: _jsxFileName,
@@ -143,7 +143,7 @@ function (_Component) {
           lineNumber: 36
         },
         __self: this
-      }, list), __jsx("br", {
+      }, sonuc), __jsx("br", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 39
