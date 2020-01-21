@@ -1,0 +1,1 @@
+{"version":3,"file":"static/webpack/static/development/pages/index.js.2e40f1dc38b4763ceb33.hot-update.js","sources":["webpack:///./pages/index.js"],"sourcesContent":["const Icerik = () => (<div>Selam Next</div>);\n\nexport default Icerik  ;"],"mappings":";;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AACA;AACA;;;;A","sourceRoot":""}
